@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style/style.css" />
+	 <link rel="stylesheet" href="style/homeStyle.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Future 2 Exams | About Us</title>
+  </head>
+  <body>
+    <header class="header">
+      <a>
+        <img src="img/logo.png" alt="F2Y Exams Logo" class="logo" />
+      </a>
+      <h1 class="main-header">Future 2 You Exams</h1>
+      <div class="searchbox">
+        <form>
+          <input type="text" placeholder="Search Courses" name="Search" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="navi">
+      <ul class="menu">
+        <li>
+          <a href="Home.html">Home</a>
+        </li>
+        <li>
+          <a href="Registration.html">Registration</a>
+        </li>
+        <li>
+          <a href="#">Examination</a>
+        </li>
+        <li>
+          <a href="#">Result</a>
+        </li>
+        <li>
+          <a href="#">Membership</a>
+        </li>
+        <li>
+          <a href="#">Reviws</a>
+        </li>
+        <li>
+          <a href="About Us.html">About Us</a>
+        </li>
+      </ul>
+    </section>
+	
+	<div class="container">
+	<img src = "img/Home3.jpg" title = "F2Y Exams" class = "center" style = "width : 100%">
+	 <div class="overlay">
+	 <div class = "animation"> </div><br>
+	 <div class = "animation1"> </div><br>
+	 <div class = "animation2"> </div><br>
+	 <div class = "animation3"> </div>
+    <div class="text"> <hr> <br> Future To You Exams <br> <hr> <hr> </div>
+  </div> 
+</div>
+  <h1 id = "F2Y"> F2Y Exams </h1>
+  <br>
+  <div class ="text3"> 
+  <h2 id = "dis1"> <i> Best way to build your future.......  </i> </h2> <br>
+	<p style="border: 1px solid black " class = "dis2"> <b> "F2Y Exams" is an online exam system designed to help employees improve their knowledge of a variety of subjects in order to get qualified.
+	A web application that forms a network between the organization and applicants is an online examination system for employee recruiting. The company enters the exam questions they want on the website. These questions are presented to qualified students as a test. The candidates' responses are subsequently assessed, and their scores are tallied and kept. The institution can then use this score to evaluate their performance. Owners of the site post questions, not the site itself.</b></p>
+	<br>
+	<h3> Upcoming Exams............ </h3>
+	<br>
+	</div>	
+	
+<div class="row">
+  <div class="column">
+  
+    <img src="img/information technology.png" alt="Snow"  width = "300" height = "300"><!--style="width:100%"-->
+  </div>
+  <div class="column">
+    <img src="img/English.jpg" alt="Forest" width = "300" height = "300"><!--style="width:100%"-->
+  </div>
+  <div class="column">
+    <img src="img/Mathematics.jpg" alt="Mountains" width = "300" height = "300><!--style="width:100%"-->
+  </div>
+   <div class="column">
+    <img src="img/information technology.png" alt="Mountains" width = "300" height = "300"><!--style="width:100%"-->
+  </div>
+  <div class="column">
+    <img src="img/information technology.png" alt="Mountains" width = "300" height = "300"><!--style="width:100%"-->
+  </div>
+</div>
+	
+	
+	
+	<footer class="footer">
+		<!--<img src ="img/footer.jpg" alt="footer" class="footer"> -->
+        <div class="container grid grid--3-cols">
+        <div class="contact-us-col">
+          <p class="footer-heading">Contact us</p>
+          <ul class="fotter-nav">
+            <li class="footer-list">
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="mail-outline"></ion-icon
+              ></a>
+              <p>future2you@.com</p>
+            </li>
+            <li class="footer-list">
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+              <p>Future2You Exams</p>
+            </li>
+            <li class="footer-list">
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+              <p>Future2You Exams</p>
+            </li>
+            <li class="footer-list">
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+              <p>Future2You Exams</p>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; 2027 by F2Y Inc. All right reserved
+          </p>
+        </div>
+        <div class="logo-head">
+          <center>
+            <img
+              src="img/logo.png"
+              alt="F2Y Exams Logo"
+              class="logo logo1"
+            />
+
+            <h2 class="footer-header">Future 2 You Exams</h2>
+          </center>
+        </div>
+        <div class="account-col">
+          <p class="footer-heading">Account</p>
+          <ul class="fotter-nav">
+            <li>
+              <a href="#" class="footer-link">Create account</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Sign in</a>
+            </li>
+          </ul>
+        </div>
+	  </div>
+    </footer>
+  </body>
+</html>

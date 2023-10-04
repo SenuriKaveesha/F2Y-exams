@@ -1,0 +1,224 @@
+/* *********************************** */
+/* Home */
+/* *********************************** */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height : 600px;
+}
+#F2Y {
+text-align: center;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: 100px;
+}
+
+.overlay {
+  /*position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #bfbfbf;*/
+   position: absolute;
+  bottom: 0;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: white;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.container6:hover .overlay {
+  opacity: 1;
+}
+.container6{
+	max-width: 100%;
+	position: relative;
+	right: 0;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  font-family : Copperplate, Papyrus, fantasy;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.animation {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 100;
+  animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:#1C2833; left:0px; top:0px;}
+  25%  {background-color:#2874A6; left:99%; top:0px;}
+  50%  {background-color:#117864; left:99%; top:500px;}
+  75%  {background-color:#154360; left:0px; top:500px;}
+  100% {background-color:#1C2833; left:0px; top:0px;}
+} 
+
+.animation1 {
+  width: 10px;
+  height: 10px;
+  background-color: #1C2833;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 100;
+  animation-direction: alternate-reverse;  
+}
+
+@keyframes example {
+  0%   {background-color:#1C2833; left:0px; top:0px;}
+  25%  {background-color:#2874A6; left:99%; top:0px;}
+  50%  {background-color:#117864; left:99%; top:500px;}
+  75%  {background-color:#154360; left:0px; top:500px;}
+  100% {background-color:#1C2833; left:0px; top:0px;}
+} 
+.animation2 {
+  width: 10px;
+  height: 10px;
+  background-color: #1C2833;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 100;
+  animation-direction: normal;  
+}
+
+@keyframes example {
+  0%   {background-color:#1C2833; left:0px; top:0px;}
+  25%  {background-color:#2874A6; left:99%; top:0px;}
+  50%  {background-color:#117864; left:99%; top:500px;}
+  75%  {background-color:#154360; left:0px; top:500px;}
+  100% {background-color:#1C2833; left:0px; top:0px;}
+} 
+.animation3 {
+  width: 10px;
+  height: 10px;
+  background-color: #1C2833;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 100;
+  animation-direction: reverse;  
+}
+
+@keyframes example {
+  0%   {background-color:#1C2833; left:0px; top:0px;}
+  25%  {background-color:#2874A6; left:99%; top:0px;}
+  50%  {background-color:#117864; left:99%; top:500px;}
+  75%  {background-color:#154360; left:0px; top:500px;}
+  100% {background-color:#1C2833; left:0px; top:0px;}
+} 
+
+#dis1{
+	color : blue;
+}
+.dis2 {
+	padding:20px;
+}
+
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image1 {
+  display: block;
+  width: 150%;
+  height: auto;
+  padding-left : 20px;
+  left : 20px
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 175px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay1 {
+  height: 100%;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text3 {
+	padding-left : 20px;
+	padding-right : 10px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.container3 {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}

@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+.level1 {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    color : #008B8B;
+    font-family: "Times New Roman", Times, serif;
+}
+.text-block {
+    bottom: 20px;
+    right: 20px;
+    left:20px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.container{
+    margin-top: 25px;
+    width: max-content;
+}
+.icons {
+    font-size: 50px;
+}
+.btn-next-cont{
+    position: relative;
+    top: -200px;
+    left: 92vw;
+    background: transparent;
+    border: none;
+}
+.btn-prev-cont{
+    position: relative;
+    top: -200px;
+    left: -30px;
+    background: transparent;
+    border: none;
+}
+.button-more {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button-more span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-more span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button-more:hover span {
+    padding-right: 25px;
+}
+
+.button-more:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.visible-1{
+    visibility: hidden;
+    position: absolute;
+}
+.visible-2{
+    visibility: visible;
+    position: relative;
+}
+li{
+    width: border-box;
+}
